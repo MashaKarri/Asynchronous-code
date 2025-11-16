@@ -1,2 +1,48 @@
+body {
+  color: #fff;
+  background: linear-gradient(270deg, #bdc3c7, #2c3e50);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
+.title {
+  font-family: Bodoni Moda, serif;
+  font-size: 36px;
+}
+
+button {
+  color: #000;
+  cursor: pointer;
+  background-color: #e8eef2;
+  border: none;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px 20px;
+  font-family: IBM Plex Serif, serif;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+.container {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.block {
+  background-color: #fff;
+  width: 250px;
+  height: 200px;
+}
+
+.area {
+  font-size: 20px;
+}
 /*# sourceMappingURL=Asynchronous-code.4d663569.css.map */
